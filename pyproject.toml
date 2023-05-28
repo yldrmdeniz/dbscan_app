@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cluster-app"
+version = "0.1.0"
+description = "dbscan based clustering dash app"
+authors = ["Deniz Yildirim <deniz.yildirim@avl.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "cluster_app"}]
+
+[tool.poetry.dependencies]
+python = "3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
